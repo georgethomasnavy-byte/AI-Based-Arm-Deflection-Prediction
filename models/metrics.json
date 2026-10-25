@@ -1,0 +1,79 @@
+{
+  "metrics": {
+    "Linear Regression": {
+      "MAE_mm": 4.81542,
+      "RMSE_mm": 7.18488,
+      "R2": 0.4099,
+      "MAPE_pct": 4047.884,
+      "within_10pct": 3.14
+    },
+    "Random Forest": {
+      "MAE_mm": 0.74964,
+      "RMSE_mm": 2.20484,
+      "R2": 0.94443,
+      "MAPE_pct": 25.019,
+      "within_10pct": 33.74
+    },
+    "Power-Law Regression": {
+      "MAE_mm": 0.05057,
+      "RMSE_mm": 0.1341,
+      "R2": 0.99979,
+      "MAPE_pct": 7.048,
+      "within_10pct": 82.55
+    }
+  },
+  "train_r2": {
+    "Linear Regression": 0.40622,
+    "Random Forest": 0.97047,
+    "Power-Law Regression": 0.99982
+  },
+  "extrapolation_metrics": {
+    "Linear Regression": {
+      "MAE_mm": 8.24788,
+      "RMSE_mm": 12.3633,
+      "R2": 0.31369,
+      "MAPE_pct": 1293.566,
+      "within_10pct": 3.9
+    },
+    "Random Forest": {
+      "MAE_mm": 4.35585,
+      "RMSE_mm": 8.5454,
+      "R2": 0.67212,
+      "MAPE_pct": 41.055,
+      "within_10pct": 3.17
+    },
+    "Power-Law Regression": {
+      "MAE_mm": 0.09436,
+      "RMSE_mm": 0.21462,
+      "R2": 0.99979,
+      "MAPE_pct": 3.402,
+      "within_10pct": 93.14
+    }
+  },
+  "cv_r2_mean": 0.9825915590899493,
+  "cv_r2_std": 0.00019378059153480365,
+  "cv_folds": [
+    0.9823825197653231,
+    0.9828495495867986,
+    0.9825426079177263
+  ],
+  "power_law_coefficients": {
+    "log_length_mm": 3.0031097684697046,
+    "log_payload_kg": 1.0013351428536155,
+    "log_diameter_mm": -4.0079102731406895,
+    "log_E_GPa": -1.0016258747249807,
+    "load_case": -0.9819103388794558,
+    "intercept": -2.702456754219119
+  },
+  "power_law_theory": {
+    "log_length_mm": 3.0,
+    "log_payload_kg": 1.0,
+    "log_diameter_mm": -4.0,
+    "log_E_GPa": -1.0
+  },
+  "best_model_display_name": "Power-Law Regression",
+  "n_train": 32000,
+  "n_test": 8000,
+  "n_total": 40000,
+  "trained_at": "2026-10-25 14:21:51"
+}
